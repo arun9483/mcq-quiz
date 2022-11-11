@@ -7,6 +7,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <h1>Quiz</h1>
+      <hr />
       <Quiz list={questions} />
     </div>
   );

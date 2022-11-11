@@ -21,22 +21,20 @@ const Question: React.FC<QuestionProps> = ({
   return (
     <section className="question-container">
       <h4>{question.question}</h4>
-      <form className="question-form">
-        {question.answers.map((ans, index) => {
-          return (
-            <div className="choice" key={ans}>
-              <input
-                type="radio"
-                name={questionKey}
-                id={ans}
-                value={index}
-                onChange={onChangeHandler}
-              />
-              <label htmlFor={ans}>{ans}</label>
-            </div>
-          );
-        })}
-      </form>
+      {question.answers.map((ans, index) => {
+        return (
+          <div className="choice" key={ans}>
+            <input
+              type="radio"
+              name={questionKey}
+              id={ans}
+              value={index}
+              onChange={onChangeHandler}
+            />
+            <label htmlFor={ans}>{ans}</label>
+          </div>
+        );
+      })}
     </section>
   );
 };
