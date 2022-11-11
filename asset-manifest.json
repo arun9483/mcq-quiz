@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mcq-quiz/static/css/main.073c9b0a.css",
+    "main.js": "/mcq-quiz/static/js/main.6734c07c.js",
+    "static/js/787.90097acc.chunk.js": "/mcq-quiz/static/js/787.90097acc.chunk.js",
+    "index.html": "/mcq-quiz/index.html",
+    "main.073c9b0a.css.map": "/mcq-quiz/static/css/main.073c9b0a.css.map",
+    "main.6734c07c.js.map": "/mcq-quiz/static/js/main.6734c07c.js.map",
+    "787.90097acc.chunk.js.map": "/mcq-quiz/static/js/787.90097acc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.6734c07c.js"
+  ]
+}
